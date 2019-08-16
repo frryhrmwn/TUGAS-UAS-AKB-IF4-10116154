@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TemanActivity"
+    android:background="@drawable/gradient3">
+
+    <TextView
+        android:id="@+id/emptyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/no_friends"
+        android:textSize="24sp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+        <!--app:layout_anchor="@id/emptyTextView"
+        app:layout_anchorGravity="bottom"/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:layout_margin="20dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/list"
+        app:layout_anchorGravity="bottom|right|end" />
+
+    <!--<TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="top|center"
+        android:text="@string/info"
+        android:textSize="16sp" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="70dp"
+    android:layout_marginRight="20dp"
+    android:src="@drawable/ic_add"
+    app:fabSize="normal"
+    app:layout_anchor="@id/nav_view"
+    app:layout_anchorGravity="top|right|end" />-->
+
+    <!--<android.support.design.widget.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/colorPrimaryDark"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:layout_anchor="@id/list"
+        app:layout_anchorGravity="bottom"
+        app:menu="@menu/bottom_nav_menu_teman" />-->
+
+</android.support.design.widget.CoordinatorLayout>
+

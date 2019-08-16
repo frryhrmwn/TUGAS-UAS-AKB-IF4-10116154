@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <!--Default Color
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    -->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c74</color>
+    <color name="bg_screen2">#00c2cc</color>
+    <color name="bg_screen3">#4495ff</color>
+    <color name="bg_screen4">#00aaaa</color>
+    <color name="bg_screen5">#00BCD4</color>
+
+    <!-- dots inactive colors -->
+    <color name="pager_dark_screen1">#d1395c</color>
+    <color name="pager_dark_screen2">#14a895</color>
+    <color name="pager_dark_screen3">#3378d4</color>
+    <color name="pager_dark_screen4">#199a7a</color>
+    <color name="pager_dark_screen5">#0097A7</color>
+
+    <!-- dots active colors -->
+    <color name="pager_light_screen1">#f98da5</color>
+    <color name="pager_light_screen2">#8cf9eb</color>
+    <color name="pager_light_screen3">#93c6fd</color>
+    <color name="pager_light_screen4">#a3f1ff</color>
+    <color name="pager_light_screen5">#B2EBF2</color>
+
+    <array name="array_pager_active">
+        <item>@color/pager_light_screen1</item>
+        <item>@color/pager_light_screen2</item>
+        <item>@color/pager_light_screen3</item>
+        <item>@color/pager_light_screen4</item>
+        <item>@color/pager_light_screen5</item>
+    </array>
+
+    <array name="array_pager_inactive">
+        <item>@color/pager_dark_screen1</item>
+        <item>@color/pager_dark_screen2</item>
+        <item>@color/pager_dark_screen3</item>
+        <item>@color/pager_dark_screen4</item>
+        <item>@color/pager_dark_screen5</item>
+    </array>
+
+    <!--color untuk gradient tansition-->
+    <color name="purple_500">#9c27b0</color>
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="blue_500">#2196f3</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="light_blue_500">#03a9f4</color>
+
+</resources>

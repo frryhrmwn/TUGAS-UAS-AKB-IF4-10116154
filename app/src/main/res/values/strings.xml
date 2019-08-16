@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">TUGAS UAS AKB IF4 10116154</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="daftar_teman">Daftar Teman</string>
+
+    <string name="email">Email</string>
+    <string name="nama">Nama</string>
+    <string name="telepon">Telepon</string>
+    <string name="kelas">Kelas</string>
+    <string name="sosmed">Sosmed</string>
+    <string name="nim">NIM</string>
+
+    <string name="invalid_nama">Invalid Nama</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_sosmed">Invalid Sosmed</string>
+    <string name="invalid_telepon">Invalid Telepon</string>
+    <string name="invalid_kelas">Invalid Kelas</string>
+    <string name="invalid_nim">Invalid NIM</string>
+    <string name="teman">Teman</string>
+    <string name="are_you_sure">Are you sure to delete this?</string>
+    <string name="no_friends">Daftar teman masih kosong\n Silakan tambah daftar teman</string>
+    <string name="info">Tap list untuk mengedit\nTahan list untuk menghapus</string>
+
+
+
+    <string name="title_profil">Profil</string>
+    <string name="title_kontak">Kontak</string>
+    <string name="title_daftarTeman">Daftar Teman</string>
+    <string name="settings">Settings</string>
+    <string name="viewpager">Lihat ViewPager</string>
+    <string name="logout">Logout</string>
+
+    <string name="profil_nim">10116154</string>
+    <string name="profil_nama">Ferry Hermawan</string>
+    <string name="profil_kelas">IF4</string>
+    <string name="deskripsi">Mahasiswa UNIKOM yang saat ini sedang menempuh kuliah semester 6</string>
+
+
+    <string name="kontak_telpon">+628997161211</string>
+    <string name="kontak_email">ferryhermawan24@gmail.com</string>
+    <string name="kontak_instagram">ferrympe7</string>
+    <string name="kontak_instagramlink">https://www.instagram.com/ferrympe7</string>
+
+    <string name="back">Back</string>
+    <string name="do_nothing">Do Nothing</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Start Now</string>
+
+    <string name="viewpager_1_title">Welcome!</string>
+    <string name="viewpager_1_desc">Selamat datang di aplikasi untuk melihat friend list</string>
+
+    <string name="viewpager_2_title">Profil</string>
+    <string name="viewpager_2_desc">Menampilkan profil dari pembuat aplikasi</string>
+
+    <string name="viewpager_3_title">Kontak</string>
+    <string name="viewpager_3_desc">Menampilkan kontak dari pembuat aplikasi</string>
+
+    <string name="viewpager_4_title">Daftar Teman</string>
+    <string name="viewpager_4_desc">Menampilkan list daftar teman \nMenu ini dapat menambahkan, mengedit, dan menghapus list teman</string>
+
+    <string name="viewpager_5_title">Let\'s Start</string>
+    <string name="viewpager_5_desc">Aplikasi ini dibuat oleh:\n\nFerry Hermawan\n10116154\nIF4</string>
+
+    <string name="home_title">Welcome to Application</string>
+    <string name="home_desc">make friends and have fun.</string>
+
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_one">Create One</string>
+    <string name="colon">:</string>
+</resources>

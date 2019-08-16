@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.KontakFragment"
+    android:background="@drawable/gradient3">
+
+    <TextView
+        android:id="@+id/tv_kontak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="@string/title_kontak" />
+
+    <ImageView
+        android:id="@+id/image_foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_kontak"
+        android:src="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/profil_nama"
+        android:layout_below="@id/image_foto"/>
+
+    <ImageView
+        android:id="@+id/image_telpon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_005_whatsapp"
+        android:layout_below="@id/tv_nama"/>
+
+    <TextView
+        android:id="@+id/tv_telpon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:autoLink="phone"
+        android:text="@string/kontak_telpon"
+        android:layout_toEndOf="@id/image_telpon"
+        android:layout_below="@id/tv_nama"/>
+
+    <ImageView
+        android:id="@+id/image_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_gmail"
+        android:layout_below="@id/image_telpon"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="25dp"
+        android:autoLink="email"
+        android:text="@string/kontak_email"
+        android:layout_toEndOf="@id/image_email"
+        android:layout_below="@id/tv_telpon"/>
+
+    <ImageView
+        android:id="@+id/image_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_029_instagram"
+        android:layout_below="@id/image_email"/>
+
+    <TextView
+        android:id="@+id/tv_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="25dp"
+        android:autoLink="web"
+        android:text="@string/kontak_instagramlink"
+        android:layout_toEndOf="@id/image_instagram"
+        android:layout_below="@id/tv_email"/>
+
+</RelativeLayout>
